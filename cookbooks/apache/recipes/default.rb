@@ -10,4 +10,6 @@ end
 
 service 'apache web service' do
 	service_name 'httpd'
+	action [:enable,:start]
 end
+
